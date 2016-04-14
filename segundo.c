@@ -2,6 +2,6 @@
 
     int main ()
     {
-        printf("meu segundo programa");
+        printf("\nmeu segundo programa\n");
         return 0;
     }
