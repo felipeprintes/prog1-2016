@@ -3,6 +3,10 @@
     int main()
         {
             int num1,num2,soma,media;
+            char nomes;
+            
+            printf("entre com o nome: ");
+            scanf("%c", &nomes);
            
             printf("digite o primeiro numerio: ");
             scanf("%d", &num1);
