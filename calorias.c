@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+
     int main ()
 {
-    char sexo,h,m;
     float peso, altura,caloria,idade;
-    
+    char sexo;
 
             
     printf ("homem ou mulher? ");

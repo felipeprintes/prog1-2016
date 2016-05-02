@@ -1,8 +1,8 @@
 // notas dos alunos
 #include <stdio.h>
-    int main( )
+    int main(char * argv[] )
     {
-        char alunos;
+        char alunos [30];
         
         float media,nota1,nota2,soma;
             printf("qual aluno: ");
@@ -12,7 +12,7 @@
             printf("qual a segunda nota: ");
                 scanf("%f", &nota2);
             soma=nota1+nota2;
-            media=(nota1+nota2)/2;
+            media=soma/2;
             printf("media=%0.2f", media);
             return 0;
                 
