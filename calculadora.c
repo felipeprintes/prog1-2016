@@ -3,14 +3,21 @@
 {
     int operacoes, soma, sub, mult, divi;
     int num1, num2,resp;
+        
+        printf("\nTabela da calculadora");
+        printf("\n 1) soma");
+        printf("\n 2) subtração");
+        printf("\n 3)multiplicação");
+        printf("\n 4)divisão");
+            
     
         
             
         do
         {
-            printf("entre com um número: ");
+            printf("\nentre com um número: ");
             scanf("%d",&num1);
-        printf("entre com um número: ");
+        printf("\nentre com um número: ");
             scanf("%d",&num2);
             printf("qual operação você deseja? ");
                 scanf("%d", &operacoes);
@@ -40,7 +47,7 @@
         
         while(resp==1);
         {
-            printf("\ntchau ");
+            printf("\nbons estudos\n");
                 
             
         }
